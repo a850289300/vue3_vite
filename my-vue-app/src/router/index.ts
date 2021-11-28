@@ -1,9 +1,11 @@
 import {createRouter, createWebHashHistory} from 'vue-router'
 import Layout from '@/layouts/Layout.vue'
 import Canvas from '@/components/Canvas/Index.vue'
+import Login from '@/views/Login/Login.vue'
 
 const routes = [
   { path: '/', component: Layout },
+  { path: '/login', component: Login},
   { path: '/canvas', component: Canvas}
 ]
 
